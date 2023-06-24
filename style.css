@@ -100,6 +100,7 @@ section{
     font-size: 1.8em;
     font-weight: 600;
     background: rgba(0, 0, 0, 0.2);
+    width: 400px;
 }
 .home .content a{
     background: white;
@@ -114,6 +115,16 @@ section{
     color: white;
     background: #b4a4f5;
 }
+.home .content .image-avatar{
+    position: absolute;
+    z-index: 666;
+    top: 145px;
+    left: 900px;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
 .home img{
     z-index: 000;
     position: absolute;
@@ -238,12 +249,31 @@ section{
             align-items: right;
             transform: translateY(0px);
             margin-bottom: 12px;
-        } 
+        }
+        .home .content p{
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            width: 300px;
+        }
+        .home .content .image-avatar{
+            position: absolute;
+            top: 55px;
+            left: 330px;
+            height: 320px;
+            width: 320px;
+            object-fit: cover;
+        }
     }
     @media (orientation: portrait) {
         .slider-navigation{
             transform: translateY(100px);
             margin-bottom: 12px;
+        }
+        .home .content p{
+            width: 300px;
+        }
+        .home .content .image-avatar{
+            display: none;
         } 
      } 
     
