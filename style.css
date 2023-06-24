@@ -218,4 +218,13 @@ section{
         background-position: center;
         transition: 0.3s ease;
     }
+    .home .content h1{
+        line-height: 40px;
+        text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000;
+        font-size: 1.5em;
+        }
+    .home .content h1 span{
+        text-shadow: -3px 3px 0 #fff, 3px 3px 0 #fff, 3px -3px 0 #fff, -3px -3px 0 #fff;
+        font-size: 2em;
+        }
 }
