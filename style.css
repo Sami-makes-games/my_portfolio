@@ -227,4 +227,24 @@ section{
         text-shadow: -3px 3px 0 #fff, 3px 3px 0 #fff, 3px -3px 0 #fff, -3px -3px 0 #fff;
         font-size: 2em;
         }
+    
+    @media (orientation: landscape) {
+        .home{
+            position: relative;
+            height: 60vh;
+        }
+        .slider-navigation{
+            justify-content: right;
+            align-items: right;
+            transform: translateY(0px);
+            margin-bottom: 12px;
+        } 
+    }
+    @media (orientation: portrait) {
+        .slider-navigation{
+            transform: translateY(100px);
+            margin-bottom: 12px;
+        } 
+     } 
+    
 }
